@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Black Jack Game</title>
+    </head>
+    <body>
+        <section class="main-section">
+            <section class="title-section">
+                <h1>Black Jack Table <span id="card-icon">🃏</span></h1>
+            </section>
+            <section class="sub-section">
+                <h3>Player hand : <span id="player-hand"></span></h3>
+            </section>
+
+            <section class="sub-section">
+                <h3>Player Score : <span id="score"></span></h3>
+            </section>
+
+            <section class="sub-section">
+                <h3>Result : <span id="result"></span></h3>
+            </section>
+
+            <section class="button-section">
+                <button id="start-btn" onclick="startGame()">START 🎲</button>
+                <button id="hit-btn" onclick="hit()">HIT 👊🏻</button>
+                <button id="hold-btn" onclick="hold()">HOLD ✋🏻</button>
+            </section>
+
+            <section class="button-section">
+                <button id="restart-btn" onclick="restart()">RESTART 🔄</button>
+            </section>
+        </section>
+
+        <script src="game.js"></script>
+    </body>
+</html>

@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Casino';
+    src: url(./fonts/Casino3D.ttf);
+}
+
+@font-face {
+    font-family: 'Wild West';
+    src: url(./fonts/cowboyjunkDEMO.otf);
+}
+
+body {
+    text-align: center;
+    font-family: 'Casino', sans-serif;
+    background-image: url(./images/casinobackground.jpg);
+    background-size: cover;
+}
+
+h1 {
+    color: #dedfdf;
+    font-family: 'Casino', sans-serif;
+    text-shadow: 0 0 10px #020403;
+    font-size: 40px;
+}
+
+#card-icon {
+    font-size: 40px;
+    text-shadow: 0 0 5px #dedfdf;
+}
+
+h3 {
+    color: rgb(227, 220, 220);
+    text-shadow: 0 0 6px #020403;
+    font-family: 'Wild West', sans-serif;
+    font-size: 25px;
+}
+
+span {
+    font-family: 'Casino', sans-serif;
+}
+
+.main-section {
+    border-radius: 8px;
+    box-shadow: 0 0 4px #020403;
+    border: 3px solid #020403;
+    background-image: url(./images/greenfelt.jpg);
+    background-size: cover;
+    padding: 10px 10px;
+    margin: 5px auto;
+    width: 60%;
+}
+
+.title-section {
+    box-shadow: 0 0 4px #020403;
+    border-radius: 5px;
+    border: 1px solid #020403;
+    background-color: rgba(28, 64, 11, 0.8);
+    max-width: 70%;
+    margin: 0 auto;
+    height: 150px;
+    overflow: hidden;
+}
+
+.sub-section {
+    border-radius: 5px;
+    border: 1px solid #020403;
+    box-shadow: 0 0 5px #020403;
+    padding: 5px 5px;
+    background-color: hsla(0, 31%, 52%, 0.5);
+    margin: 10px auto;
+    height: 100px;
+    overflow: hidden;
+}
+
+.button-section {
+    border-radius: 5px;
+    box-shadow: 0 0 4px #020403;
+    padding: 5px 5px;
+    background-color: hsla(0, 9%, 81%, 0.8);
+    margin: 10px auto;
+    max-width: fit-content;
+}
+
+
+button {
+    padding: 4px 7px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 4px #020403;
+    font-family: 'Casino', sans-serif;
+    font-size: 25px;
+    margin: 5px;
+}
+
+#hit-btn:hover {
+    background-color: rgb(44, 187, 44);
+    color: white;
+}
+
+#hold-btn:hover {
+    background-color: rgb(151, 27, 27);
+    color: white;
+}
+
+#start-btn:hover {
+    background-color: rgb(46, 132, 161);
+    color: white;
+}
+
+#restart-btn:hover {
+    background-color: goldenrod;
+    color: white;
+}
